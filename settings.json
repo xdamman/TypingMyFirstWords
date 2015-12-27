@@ -1,0 +1,6 @@
+{
+    "voice": "en-US", // "en-US", "fr-FR", ... to use the synthetizer or one of the voices within the `sounds/` directory
+    "words": ["mommy","daddy","laura","biscuit","chocolate","kiwi","kaki","house","olive","baby","tigre"], // FR ["maman","papa","laura","maminou","papinou","biscuit","chocolat","kiwi","kaki","maison","olive","bebe","tigre"]
+    "AlphabetSyncDelay": -1, // (only with custom voice) delay to sync `sounds/$voice/alphabet.m4u` (in seconds) 
+    "WordsSoundFilesExtension": ".wav" // extension audio files for words in `sounds/words/`   
+}

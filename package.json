@@ -1,0 +1,15 @@
+{
+  "name": "TypingMyFirstWords",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "build": "react-native bundle --platform ios --bundle-output ios/TypingMyFirstWords/main.jsbundle --entry-file index.ios.js"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "react-native": "^0.17.0",
+    "react-native-sound": "^0.7.1",
+    "react-native-speech": "git@github.com:bsudekum/react-native-speech.git"
+  }
+}
