@@ -8,7 +8,7 @@ sounds/*/originals
 
 # Xcode
 #
-build/
+buid/
 *.pbxuser
 !default.pbxuser
 *.mode1v3

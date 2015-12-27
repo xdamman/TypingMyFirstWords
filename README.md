@@ -7,17 +7,13 @@ Everytime she would press a key, I would say the letter out loud. And whenever t
 
 I figured that I could write an app to do just that.
 
-![](http://cl.ly/3X3t1e0P2x2B/Screen%20Shot%202015-12-26%20at%2011.18.30%20PM.png)
+![](http://cl.ly/1c0I1e3I0C34/IMG_0407.gif)
 
 I also took the opportunity to give a try to `react-native`.
 
 I welcome `pull requests` to make this app better for our kids :-)
 
 ## Installation
-
-Just drag and drop the `/build/TypingMyFirstWords.app` into iTunes and sync your iPad.
-
-## Installation for development
 
 ### Requirements
 
@@ -39,6 +35,16 @@ Then:
 	open ios/TypingMyFirstWords.xcodeproj
 	
 Then build and run it in the simulator or directly on your device.
+
+### Building
+
+Whenever you edit the javascript files, you will need to update the javascript bundle using the `react-native` command:
+
+    $> react-native bundle --platform ios --bundle-output ios/TypingMyFirstWords/main.jsbundle --entry-file index.ios.js
+
+Then, in XCode, you can build the project. Make sure to disable the `Dead Code Stripping` option otherwise you'll run into issues.
+
+![](http://cl.ly/0n3T2u100p0p/Screen%20Shot%202015-12-27%20at%2010.25.50%20AM.png)
 
 ## Personalizing
 
