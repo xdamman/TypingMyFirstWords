@@ -7,7 +7,7 @@ Everytime she would press a key, I would say the letter out loud. And whenever t
 
 I figured that I could write an app to do just that.
 
-![](http://cl.ly/1c0I1e3I0C34/IMG_0407.gif)
+![](http://cl.ly/1e3x120O2r1F/LauraTypingMyFirstWords.gif)
 
 I also took the opportunity to give a try to `react-native`.
 
