@@ -72,11 +72,11 @@ You can easily generate all the AppIcons using
 
 #### Alphabet
 
-To edit the pronunciation of that alphabet: record your voice in a `.m4u` file (default file format when you record a new audio file with `QuickTime` on your Mac). You have to pronounce each letter with a 2s interval (use a stopwatch, at every other second, say the next letter). You may need to crop your file to make sure that it starts without a blank. Then move the file to `sounds/$voice/alphabet.m4u`. 
+To edit the pronunciation of the alphabet: record your voice in a `.m4u` file (default file format when you record a new audio file with `QuickTime` on your Mac). You have to pronounce each letter with a 2s interval (use a stopwatch, at every other second, say the next letter). You may need to crop your file to make sure that it starts without a blank. Then move the file to `sounds/$voice/alphabet.m4u`. 
 
 #### Words
 
-It's easier to records all the words at once. Fire up `QuickTime` and start a new audio recording. They say all the words that you want to record and make sure you leave a silence of about 1s between each word.
+It's easier to records all the words at once. Fire up `QuickTime` and start a new audio recording. Then say all the words that you want to record and make sure to leave a silence of about 1s between each word.
 
 Then you can use the command line utility `sox` to automatically split that audio file into one file per word. To install `sox`, do `brew install sox`.
 You will also need `ffmpeg`. To install it on your mac: `brew install ffmpeg --with-fdk-aac --with-faac`
@@ -95,7 +95,7 @@ You may have to play with some of those parameters depending on the quality of y
 	# 0.3t stands for 0.3s at the end of the sequence for silence detection
 	# 0.2% is the threshold to detect a silence
 	
-Now, you should have a bunch of `output00x.wav` in your directory that you can just rename with the name of the word, then make sure you move them to the `sounds/$voice/words/` directory and you are good to go.
+Now, you should have a bunch of `output00x.wav` in your working directory. Rename them with the name of the corresponding word, then make sure you move them to the `sounds/$voice/words/` directory and that those words are listed in the `words[]` array in `settings.json`.
 
 
 ---
