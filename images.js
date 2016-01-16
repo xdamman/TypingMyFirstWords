@@ -17,6 +17,12 @@ images['baby'] = require('./images/words/baby.jpg');
 
 // fr-FR
 images['maman'] = require('./images/words/maman.jpg');
+images['caroline'] = require('./images/words/caroline.jpg');
+images['xavier'] = require('./images/words/xavier.jpg');
+images['balle'] = require('./images/words/balle.jpg');
+images['banane'] = require('./images/words/banane.jpg');
+images['bateau'] = require('./images/words/bateau.jpg');
+images['train'] = require('./images/words/train.jpg');
 images['papa'] = require('./images/words/papa.jpg');
 images['laura'] = require('./images/words/laura.jpg');
 images['papinou'] = require('./images/words/papinou.jpg');
